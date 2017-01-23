@@ -2,7 +2,7 @@
 cars = 100
 # Assigns variable 'space_in_car' value of 4.0
 space_in_car = 4 # Floating point is not necessary. Removing it just
-#removes the decimal place to only a whole number.
+#removes the decimal place to only a whole number. See drill1-sup.png
 # Assigns variable 'drivers' value of 30
 drivers = 30
 # Assigns variable 'passengers' value of 90
