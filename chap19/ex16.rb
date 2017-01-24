@@ -13,7 +13,7 @@ puts "Truncating the file. Goodbye!"
 target.truncate(0)
 
 puts "now I'm going to ask you for three lines."
-# remember for drills, ARGV takes multiple arguments at the command line
+
 print "line 1: "
 line1 = $stdin.gets.chomp
 print "line2: "

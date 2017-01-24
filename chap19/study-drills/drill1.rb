@@ -16,7 +16,6 @@ puts "Truncating the file. Goodbye!"
 target.truncate(0)
 # Prints string
 puts "now I'm going to ask you for three lines."
-# remember for drills, ARGV takes multiple arguments at the command line
 # Prints string
 print "line 1: "
 # Assigns user input to variable
