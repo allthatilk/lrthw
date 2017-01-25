@@ -1,0 +1,7 @@
+1. The if statement only runs the code under it in this exercise if the
+statement it's given is true.
+
+2. It needs to be indented for clarity when people look through the code
+so you can see which bits belong inside which functions.
+
+3. Nothing. It runs find but makes the code look ugly and hard to read.
