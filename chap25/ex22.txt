@@ -84,7 +84,7 @@ close the file after use.
 
 exist?() = does given file already exist?
 
-|| = pipes: specifies local variable in a block
+|x| = pipes: specifies local variable in a block
 
 ; = semi-colon: signifies end of a line in script if you want to put
 multiple lines of code on one line.
