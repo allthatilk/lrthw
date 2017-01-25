@@ -1,0 +1,101 @@
+puts = prints string to console and starts new line after
+
+"" = double quotes: creates string that allows for escape sequences and interpolation
+
+'' = single quotes: creates string that does not use escape sequences or interpolation.
+
+# = hash: creates comment that will be ignored when script is run
+
+#{} = interpolates contents into string. Will always give the value of
+contents, like the value of a variable or the result of a sum given.
+
++ = plus: adds numbers and strings, etc.
+
+/ = slash: divides
+
+* = asterisk: multiplies given input, also primes user methods to expect
+more than one argument input without specifying how many there will be.
+
+- = minus: subtracts
+
+% = percent: modulus (gives remainder)
+
+< = less than
+
+> = greater than
+
+<= less than or equal to
+
+>= greater than or equal to
+
+=  equals: assignment operator, assigns value to variables
+
+_ = underscore: use for chaining words in variable and method names
+
+%{} = applies same format for multiple values, similar to #{} but
+without being inside a string.
+
+%q{} = same as double quotes
+
+\ = backslash for escaping within a string, e.g. \t (tab), or \n
+(newline), or \\ (\).
+
+""" = triple double quotes. Does the same as normal double quotes,
+not sure why this is useful yet.
+
+gets = takes user input
+
+. = dot: activates method with to whatever valid thing it is attached
+to, e.g. gets(input).(run)chomp(this method on gets)
+
+chomp = removes \n from end of user input when submitted (ENTER key)
+
+to_i = to integer, takes a string value and converts it to an
+integer value if possible.
+
+to_f = to float, converts string to integer with a floating point
+value (decimal point).
+
+ARGV = gets arguments from command line and returns an array of
+these values using spaces as indicators of next item for array.
+
+$stdin = standard input, stops ARGV clashing with gets because it
+tells gets to get input from the user instead of ARGV.
+
+, = allows you to add more to puts command (can you do that with
+other commands?)
+
+first = take the first item from the given array
+
+open() = open given file, has add values like 'w'(write), etc.
+
+read = read the contents of the given opened file
+
+close = close the given opened file
+
+truncate(0) = empty file contents to this many bytes or extend it
+with zeros to this many bytes.
+
+write() = write this to file opened in write mode
+
+File = File class: can be passed methods or blocks valid for this
+class, if passed a block or certain methods should automatically
+close the file after use.
+
+exist?() = does given file already exist?
+
+|| = pipes: specifies local variable in a block
+
+; = semi-colon: signifies end of a line in script if you want to put
+multiple lines of code on one line.
+
+def = define: opens method definition
+
+end = closes method definition
+
+seek = finds line in given file
+
++= plus equals: increments given integer by specified amount
+
+return = returns specified value (doesn't print or anything but
+good for setting specific value for things?)
