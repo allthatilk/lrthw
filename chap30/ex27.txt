@@ -1,0 +1,22 @@
+!
+Before boolean reverses boolean value, e.g. !false = true
+
+or, ||
+Only one value on either side needs to be true for it to
+return true. Both need to be false for it to return false.
+
+and, &&
+Both side must be true for it to return true. Only one side must return
+false for it to return false.
+
+not(t||f)
+Opposite of normal ||. Same as normal &&. Works like !
+
+not(t&&f)
+Opposite to normal &&. Same as normal ||. Works like !
+
+!=
+Does not equal or not equal to.
+
+==
+Equals or equal to.
