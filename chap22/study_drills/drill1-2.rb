@@ -35,3 +35,4 @@ cheese_and_crackers(amount_of_cheese + 100, amount_of_crackers + 1000)
 # Checked and only found spelling error in name of method. Corrected.
 # I deliberately changed occurances of 'math' to 'maths' because it
 # bugged me.
+# Didn't repeat obvious comment lines for strings.
