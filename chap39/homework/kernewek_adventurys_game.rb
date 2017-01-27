@@ -104,6 +104,9 @@ def throw_food
   end
 end
 
-puts "\vKernow agas dynnargh!\n\n"
+title = "\vkernewek adventurys gwari\v"
+intro = "\vKernow agas dynnargh!\v"
+puts title.upcase.center(75)
+puts intro.center(75)
 
 start
