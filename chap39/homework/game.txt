@@ -59,8 +59,9 @@ You have a great day on the beach enjoying the waves.
 You go home and live happily ever after.
 
 # Swim Else End
-The tide comes in and you run away.
-You learn an important lesson about tide times.
+Your indecision distracts you from the magic hidden in the waves.
+Eventually the tide comes in and you run home disappointed.
+You learn an important lesson about indecision and tide timetables.
 
 # Thow Food Decision
 You go down to investigate the mine. It's dark, cool, and damp.
