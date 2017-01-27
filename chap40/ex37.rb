@@ -9,16 +9,20 @@ while x > y do
   break if x <= 5
 end
 
-class Dogs
+module Cats
+
+  class Dogs
 
   def method_name
     puts "Tea is marvelous!"
   end
 
-alias name method_name
+  alias name method_name
+
+  end
 
 end
 
-Dogs.new.name
+Cats::Dogs.new.name
 
 END {puts "Bye, bye!"}
