@@ -6,7 +6,8 @@ module Ending
   def Ending.read(num1, num2)
     text = File.open("game.txt")
     puts text.readlines[num1..num2]
-    # Not ideal because file slurping and stuff. Will review.
+    text.close
+    # Not ideal because of file slurping and stuff. Will review.
   end
 
   def Ending.finish
@@ -45,7 +46,7 @@ module Ending
 
   def Ending.swim_else
     too_long
-    read(61, 62)
+    read(61, 63)
     finish
   end
 
