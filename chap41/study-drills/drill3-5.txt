@@ -1,0 +1,12 @@
+Looked at following links for object-oriented programming info:
+
+https://en.wikipedia.org/wiki/Object-oriented_programming
+
+http://searchmicroservices.techtarget.com/definition/object-oriented-programming-OOP
+
+This one had info on OOP and class in ruby
+https://launchschool.com/books/oo_ruby/read/the_object_model
+
+https://ruby-doc.org/core-2.2.0/Class.html
+
+http://www.eriktrautman.com/posts/ruby-explained-classes
