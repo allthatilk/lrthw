@@ -6,7 +6,7 @@ Do you go and take a closer look? Yes or No.
 As you step into the circle of stones you are whisked away to a forested
 glade with a floor covered in tiny bluebells.
 The bluebells start ringing like tiny silver bells. You hear laughter approach.
-Do you wait and see who is approaching? Yes or No\v.
+Do you wait and see who is approaching? Yes or No.
 
 # Play Decision
 You come across a group of piskies. They ask you to come and play.
