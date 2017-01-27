@@ -11,6 +11,7 @@ module Ending
 
   def Ending.finish
     puts "The End."
+    exit(0)
   end
 
   def Ending.too_long
@@ -87,7 +88,7 @@ module Ending
     finish
   end
 
-  def Ending.tourst_death
+  def Ending.tourist_death
     read(109, 111)
     finish
   end
@@ -100,4 +101,4 @@ module Ending
 
 end
 
-Ending.bucca_else
+#Ending.bucca_else
