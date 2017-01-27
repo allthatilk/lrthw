@@ -11,12 +11,14 @@ end
 
 class Dogs
 
-  def Dogs.method_name
+  def method_name
     puts "Tea is marvelous!"
   end
 
+alias name method_name
+
 end
 
-Dogs.method_name
+Dogs.new.name
 
 END {puts "Bye, bye!"}
