@@ -1,8 +1,9 @@
 require "./endings.rb"
 
 def read(num1, num2)
-  text = File.open("game.txt")
+  text = File.open("story_text.txt")
   puts text.readlines[num1..num2]
+  text.close
   print "> "
 end
 
@@ -91,7 +92,7 @@ def swim
 end
 
 def throw_food
-  read(65, 68)
+  read(66, 69)
   throw_dec = $stdin.gets.chomp.downcase
 
   if throw_dec == "yes"

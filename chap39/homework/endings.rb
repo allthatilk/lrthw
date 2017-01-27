@@ -4,7 +4,7 @@
 module Ending
 
   def Ending.read(num1, num2)
-    text = File.open("game.txt")
+    text = File.open("story_text.txt")
     puts text.readlines[num1..num2]
     text.close
     # Not ideal because of file slurping and stuff. Will review.
@@ -51,52 +51,52 @@ module Ending
   end
 
   def Ending.bucca_yes
-    read(71, 74)
+    read(72, 75)
     finish
   end
 
   def Ending.bucca_no
-    read(77, 81)
+    read(78, 82)
     finish
   end
 
   def Ending.bucca_else
     too_long
-    read(84, 86)
+    read(85, 87)
     finish
   end
 
   def Ending.giant_death
     too_long
-    read(89, 91)
+    read(90, 92)
     finish
   end
 
   def Ending.piskie_else
     too_long
-    read(94, 96)
+    read(95, 97)
     finish
   end
 
   def Ending.spriggan_death
-    read(99, 101)
+    read(100, 102)
     finish
   end
 
   def Ending.stone_circ_death
     too_long
-    read(104, 106)
+    read(105, 107)
     finish
   end
 
   def Ending.tourist_death
-    read(109, 111)
+    read(109, 112)
     finish
   end
 
   def Ending.road_death
     too_long
-    read(114, 115)
+    read(115, 116)
     finish
   end
 
