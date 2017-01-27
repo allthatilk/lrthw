@@ -1,35 +1,38 @@
 module Decisions
 
-  def Decisions.text
-      File.open(game.txt)
+  def Decisions.read(num1, num2)
+      text = File.open("game.txt")
+      puts text.readlines[num1..num2]
   end
 
-  def start
-    # game.txt section here
+  def Decisions.start
+    read(1, 2)
   end
 
-  def stay
-    # game.txt section here
+  def Decisions.stay
+    read(5, 8)
   end
 
-  def play
-    # game.txt section here
+  def Decisions.play
+    read(11, 12)
   end
 
-  def place
-    # game.txt section here
+  def Decisions.place
+    read(39, 42)
   end
 
-  def tell
-    # game.txt section here
+  def Decisions.tell
+    read(15, 18)
   end
 
-  def swim
-    # game.txt section here
+  def Decisions.swim
+    read(45, 46)
   end
 
-  def throw_food
-    # game.txt section here
+  def Decisions.throw_food
+    read(65, 68)
   end
 
 end
+
+Decisions.place

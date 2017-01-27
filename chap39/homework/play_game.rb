@@ -1,5 +1,8 @@
-File.open("decisions_game.rb")
-File.open("ending_game.rb")
+#File.open("decisions_game.rb")
+#File.open("ending_game.rb")
+
+require
+require
 
 def start
   Decisions.start
