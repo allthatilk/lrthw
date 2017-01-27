@@ -6,11 +6,11 @@ Do you go and take a closer look? Yes or No.
 As you step into the circle of stones you are whisked away to a forested
 glade with a floor covered in tiny bluebells.
 The bluebells start ringing like tiny silver bells. You hear laughter approach.
-Do you wait and see who is approaching? Yes or No.
+Do you wait and see who is approaching? Yes or No\v.
 
 # Play Decision
 You come across a group of piskies. They ask you to come and play.
-Do you want to play their game? Yes or No.
+Do you want to play their games? Yes or No.
 
 # Tell Decision
 You have a wonderful time playing silly games and watching piskie wrestling.
@@ -102,7 +102,7 @@ You learn a valuable lesson about spriggan forest safety.
 Or you would have if you weren't now a tree.
 
 # Stone Circle Death End
-You turn to stone as you stand indecisively in the cirle.
+You turn to stone as you stand indecisively in the circle.
 You learn an important lesson about stone circle safety.
 Or you would have if you weren't now a big rock.
 
