@@ -44,3 +44,5 @@ puts "\v#{rail_branch.empty?}"
 # instance, if I wanted to use the value 6 to get the "Maritime Line" key,
 # it would stop at the "Looe Valley Line" key which has the same value
 # and precedes it in the hash, which is why I made one a string.
+# There's definitely more things than this but it's easier to find what
+# hashes can do than what they can't.
